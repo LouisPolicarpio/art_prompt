@@ -10,7 +10,15 @@ export default function ColourGen(props) {
 
     const draw = (rune) => {
 
-        if(props.hue === false){
+        // if (parseInt(props.mode) ===  5){
+        //     const canvas = document.getElementById("canvas");
+        //     const h1 = document.createElement("h1");
+        //     h1.innerHTML = "Select Mode";
+        //     canvas.appendChild(h1);
+        // }
+
+        if (props.hue === false || parseInt(props.mode) > 4){
+
             return;
         }
 

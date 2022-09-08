@@ -5,7 +5,7 @@ import Gen from "./colourGen"
 export default function Main(){
 
     const [newHue, setHue] = useState(false);
-    const colourType = useRef("4");
+    const colourType = useRef("5");
 
     const setColourType = e =>{
        // console.log(e.target.value);
