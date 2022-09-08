@@ -9,7 +9,20 @@ export default function ColourGen(props) {
 
 
     const draw = (rune) => {
-        var mode = Math.floor(Math.random() * 4);
+
+        if(props.hue === false){
+            return;
+        }
+
+        var mode;
+        if (parseInt(props.mode) === 4){
+            mode = Math.floor(Math.random() * 4);
+        }else{
+            mode = parseInt(props.mode);
+        }
+
+
+
         var hue = props.hue;
         var LS = 90;
 
