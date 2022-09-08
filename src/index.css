@@ -32,13 +32,14 @@ nav{
 .nav--page_name {
  color: white;
 }
-main{
+
+.colour--body{
   padding: 30px 40px;
   display: grid;
   place-items: center ;
 }
 
-.main--gen_btn{
+.colour--gen_btn{
   background-color: rgb(81, 177, 255);
   border: none;
   color: white;
@@ -55,7 +56,7 @@ main{
   margin-bottom: 20px ;
   }
 
-.main--gen_btn:hover{
+.colour--gen_btn:hover{
     background-color: rgb(28, 57, 143);
     width: 190px;
     border-radius: 10px;
@@ -67,15 +68,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.main--colour{
+.colour--colour{
   margin-top: 50px;
 }
 
-.main--radio_div{
+.colour--radio_div{
  margin: 30px;
 }
 
-.main--container {
+.colour--container {
   display: absolute;
   background-color: rgb(81, 177, 255);
   padding: 17px 32px;
@@ -93,18 +94,18 @@ code {
   user-select: none;
 }
 
-.main--container:hover {
+.colour--container:hover {
     background-color: rgb(28, 57, 143);
     padding: 15px 30px;
     border-radius: 10px;
   }
 
-.main--radio:checked + .main--container {
+.colour--radio:checked + .colour--container {
     background-color: rgb(28, 57, 143);
   }
 
 /* Hide the browser's default radio button */
-.main--radio{
+.colour--radio{
   opacity: 0;
   cursor: pointer;
 }

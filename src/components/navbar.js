@@ -13,7 +13,7 @@ export default function Navbar() {
 
             <h3 className="nav--app_name">Art Prompts</h3>
 
-            <h1 className="nav--page_name">Colour Scheme Generator</h1>
+            <h1 className="nav--page_name">Promt Generator</h1>
         </nav>
     )
 }
