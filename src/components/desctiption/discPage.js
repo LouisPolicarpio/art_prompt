@@ -73,10 +73,29 @@ export default function Main(){
     return(
         <div className="colour--body" >
             <button onClick={handleClick} className="colour--gen_btn"  > generate </button>
-            <p>character : {descriptPerson}</p>
-            <p>clothes : {descriptCloth}</p>
-            <p>Race : {descriptRaces}</p>
-            <p>class : {descriptClasses}</p>
+            <table className="disc--gen_table">
+                <tr>
+                    <td className="disc--cat">Character</td>
+                    <td>{descriptPerson}</td>
+                </tr>
+
+                <tr>
+                    <td className="disc--cat">Clothes</td>
+                    <td>{descriptCloth}</td>
+                </tr>
+
+                <tr>
+                    <td className="disc--cat">Race</td>
+                    <td>{descriptRaces}</td>
+                </tr>
+                
+                <tr>
+                    <td className="disc--cat">Class</td>
+                    <td>{descriptClasses}</td>
+                </tr>
+                
+            </table>
+
        </div> 
     )
 

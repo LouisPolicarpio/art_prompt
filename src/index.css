@@ -110,4 +110,16 @@ code {
   cursor: pointer;
 }
 
+.disc--gen_table{
+  padding: 10px;
+  background-color: rgb(81, 177, 255);
+  color: white;
+  width: 40%;
+  text-align: center;
+  border-radius: 10px;
+    font-size: 20px;
+}
 
+.disc--cat{
+  font-size: 22px;
+}
