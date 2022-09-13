@@ -52,8 +52,16 @@ nav>ul>li>label:hover {
 .nav--checkbox{
   display: none;
 }
+
 .nav--checkbox:checked + label  {
   color:white;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.nav--checkbox:checked+label:hover {
+  color: white;
   font-size: 27px;
   font-weight: bold;
 
